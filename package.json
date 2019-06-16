@@ -1,0 +1,27 @@
+{
+  "name": "project-4",
+  "version": "1.0.0",
+  "description": "Create a Private Blockchain Notary Service for a Star",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava --verbose test/index.test.js",
+    "start": "rm -rf ./db && node index"
+  },
+  "keywords": [
+    "Notary Service",
+    "Blockchain",
+    "Star Notary"
+  ],
+  "author": "Antoni Martin",
+  "license": "ISC",
+  "dependencies": {
+    "bitcoinjs-lib": "^4.0.2",
+    "bitcoinjs-message": "^2.0.0",
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "hex2ascii": "0.0.3",
+    "level": "^4.0.0",
+    "morgan": "^1.9.0"
+  }
+}
